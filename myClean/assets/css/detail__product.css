@@ -1,0 +1,84 @@
+.product__detail__page {
+  margin: 6rem 0;
+}
+
+.product__detail__page > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 13rem;
+}
+
+.detail__page__left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail__page__left h6 {
+  color: #fdce00;
+  font-family: Bebas Neue;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.detail__page__left p {
+  color: #fff;
+}
+
+.detail__page__left > p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.detail__page__left p:last-child {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.detail__page__right img {
+  width: 57rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .product__detail__page > .container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 2rem;
+  }
+
+  .detail__page__right img {
+    width: 28rem;
+    height: 18.2rem;
+  }
+
+  .detail__page__left {
+    width: 90%;
+  }
+
+  .detail__page__left h6 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  .detail__page__left p:nth-child(2) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .detail__page__left p:last-child {
+    font-size: 1.6rem;
+  }
+}

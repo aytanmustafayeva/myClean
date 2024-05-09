@@ -1,0 +1,37 @@
+.cars__list {
+  padding-top: 10rem;
+}
+.each__car:hover h6 {
+  color: #fdce00;
+}
+
+@media screen and (max-width: 320px) {
+  .cars__parents {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 6rem;
+    /* padding: ;: 10rem 0 6rem 0; */
+  }
+
+  .each__car {
+    width: 100%;
+  }
+  /* .each__car img {
+    width: 100%;
+    height: 16.4rem;
+  } */
+  */ .each__car h6 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  .each__car p:first-child {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+  }
+}

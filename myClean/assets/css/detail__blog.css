@@ -1,0 +1,127 @@
+.blog__detail > .container {
+  display: flex;
+  justify-content: start;
+  gap: 15rem;
+}
+
+.blog__detail {
+  margin-top: 28rem;
+  /* width: 67rem; */
+  /* padding-left: 13.5rem;; */
+}
+
+.blog__detail__left img {
+  width: 67rem;
+  height: 33.4rem;
+}
+
+.aside > .detail__blog__list img {
+  width: 37rem;
+  height: 18.9rem;
+}
+
+.blog__detail img {
+  width: 67rem;
+  height: 33.4rem;
+  object-fit: cover;
+}
+
+.blog__detail p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.blog__detail span {
+  color: #fdce00;
+}
+
+.blog__img img {
+  width: 37rem;
+  height: 18.9rem;
+  object-fit: cover;
+}
+
+.each__list {
+  color: #fff;
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+aside {
+  width: 37rem;
+}
+
+.blog__detail__list h2 {
+  font-family: Bebas Neue;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fdce00;
+}
+
+.aside h6 {
+  font-family: Bebas Neue;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.blog__detail__list p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+  .blog__detail > .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .blog__detail__left {
+    width: 28rem;
+  }
+  .blog__detail__left img {
+    width: 28rem;
+    height: 19.8rem;
+  }
+  .blog__detail__list h2 {
+    font-size: 4.4rem;
+    line-height: 4.4rem;
+  }
+
+  .each__list {
+    width: 28rem;
+  }
+
+  .each__list h6 {
+    font-family: Bebas Neue;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: left;
+  }
+
+  .each__list p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .blog__img img {
+    width: 28rem;
+  }
+}

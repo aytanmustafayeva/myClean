@@ -1,0 +1,495 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 117rem;
+  width: 94%;
+  margin: 0 auto;
+}
+
+/* header start */
+.header {
+  padding: 3.4rem 0;
+  background-color: black;
+}
+
+.header__parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 16.5rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.3rem;
+}
+
+.language select {
+  width: 6.9rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.navbar button {
+  width: 2.8rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* header end */
+
+/* genral  */
+
+.service__part__text a,
+.products a,
+.cars a,
+.blog a,
+.apply__section__left a,
+.each__list a {
+  font-family: Poppins;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.about__left i,
+.service__part__text i,
+.products i,
+.cars i,
+.blog i,
+.apply__section__left i,
+.each__list i {
+  rotate: 45deg;
+}
+
+/* products section start */
+
+.products,
+.cars {
+  margin: 16.8rem 0;
+}
+
+.products__parents,
+.cars__parents {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.each__product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  color: #fff;
+  width: 27rem;
+}
+
+.each__product img,
+.each__car img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.each__product img {
+  height: 24.5rem;
+}
+
+.each__car img {
+  height: 26.5rem;
+}
+
+.products a,
+.cars a {
+  display: block;
+  text-align: right;
+}
+.each__product {
+  cursor: pointer;
+}
+
+.each__product:hover h6 {
+  color: #fdce00;
+}
+
+.each__product h6,
+.each__car h6 {
+  font-family: Bebas Neue;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.each__product > p:nth-child(3),
+.each__car > p:nth-child(3) {
+  font-family: Poppins;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.paragraph {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 90%;
+}
+
+/* products section end */
+
+/* cars section start */
+
+.each__car {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  color: #fff;
+  width: 37rem;
+}
+/* cars section end */
+
+/* each detail page header section start */
+/* .pages__general__header__section > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 3rem;
+} */
+
+.pages__general__header__section > .container a {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  padding: 3rem;
+}
+.pages__general__header {
+  position: relative;
+}
+
+.pages__general__header h2 {
+  position: absolute;
+  /* bottom: 0; */
+  left: 10%;
+  top: 80%;
+  color: #fff;
+  font-family: Bebas Neue;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  letter-spacing: -0.015em;
+  /* text-align: left; */
+  text-transform: uppercase;
+}
+
+.pages__general__header img {
+  width: 100%;
+  height: 33.8rem;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.container i {
+  color: #fff;
+}
+
+/* contact section start */
+
+.contact {
+  padding: 5rem;
+}
+.contact h2,
+.service h2,
+.products h2,
+.cars h2 {
+  font-family: Bebas Neue;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 12rem;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fdce00;
+  text-transform: uppercase;
+}
+.contact__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4.3rem;
+}
+.contact__left__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__left__text i,
+.contact__middle i,
+.contact__social__media i {
+  font-size: 2.5rem;
+  color: #fdce00;
+}
+
+.contact__left__text a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contact__middle {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.contact__left__text p,
+.contact__middle p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 25.7rem;
+  color: #fff;
+}
+
+.contact__social__media {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 5rem;
+}
+.map {
+  /* color: #000; */
+  width: 100%;
+}
+
+/* contact section end */
+
+/* footer start */
+
+.footer {
+  background-color: black;
+  color: #fff;
+}
+
+.footer__parent {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-content: start;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.385rem;
+  padding: 11.5rem 0;
+}
+
+ul li {
+  list-style: none;
+}
+ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__right .social__media i {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.footer__right .social__media {
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__editor {
+  text-align: center;
+  background-color: #fdce00;
+  padding: 2.5rem;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #000;
+}
+
+/* footer end */
+
+@media screen and (max-width: 320px) {
+  /* header start */
+  .header__parent {
+    margin: 0 2rem;
+  }
+  .logo img {
+    width: 13.3rem;
+    height: 7rem;
+  }
+
+  .header__left > .language {
+    display: none;
+  }
+
+  /* header end */
+
+  /* pages general header start */
+  .pages__general__header__section > .container > a {
+    display: none;
+  }
+
+  .pages__general__header__section > a:last-child {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .pages__general__header > .container h2 {
+    font-size: 4.4rem;
+    line-height: 4.4rem;
+    letter-spacing: -0.005em;
+  }
+  .pages__general__header img {
+    width: 100%;
+    height: 33.8rem;
+    background: #0000004d;
+    object-fit: cover;
+  }
+
+  .service__part__text a,
+  .products a,
+  .cars a,
+  .blog a,
+  .apply__section__left a {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  /* pages general header end */
+
+  .contact h2,
+  .service h2,
+  .products h2,
+  .cars h2 {
+    font-family: Bebas Neue;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+
+  .cars__parents,
+  .products__parents {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 6rem;
+    /* padding: ;: 10rem 0 6rem 0; */
+  }
+
+  .each__car,
+  .each__product {
+    width: 100%;
+  }
+
+  .each__car h6,
+  .each__product h6 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  .each__product > p:nth-child(3),
+  .each__car > p:nth-child(3) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+  }
+
+  /* contact start  */
+  .contact > .container {
+    width: 100%;
+  }
+  .contact__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: start; */
+    width: 95%;
+  }
+
+  .contact__left__text > li > a > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+
+  .contact__left__text i,
+  .contact__middle i,
+  .contact__social__media i {
+    font-size: 1.6rem;
+  }
+
+  /* footer start */
+
+  .footer__parent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    line-height: 3.385rem;
+    margin: 0 2rem;
+  }
+  /* .footer__right > .social__media i {
+    font-size: 33.88rem;
+  } */
+  .footer__right .social__media {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__editor {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  /* footer end */
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 320px) {
+  .contact {
+    padding: 0;
+  }
+  .contact__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 2rem;
+    gap: 2rem;
+  }
+
+  .contact__left__text li:nth-child(2) {
+    display: none;
+  }
+  .contact__left__text p,
+  .contact__middle p {
+    width: 20.7rem;
+  }
+
+  .contact__left__text i,
+  .contact__middle i,
+  .contact__social__media i {
+    font-size: 2.3rem;
+    color: #fdce00;
+  }
+
+  .contact__middle {
+    display: flex;
+    flex-direction: row;
+  }
+}

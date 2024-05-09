@@ -1,0 +1,173 @@
+.car__detail > .container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.car__detail__text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 47rem;
+  height: 12.2rem;
+}
+
+.car__detail__text h6 {
+  font-family: Bebas Neue;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+  color: #fdce00;
+}
+.car__detail__text p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.paragraph {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.car__detail__list {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  color: #fff;
+}
+
+.car__detail__list ul:first-child {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.car__detail__list ul:last-child {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.car__detail__right img {
+  width: 57rem;
+  height: 40rem;
+  margin-bottom: 2rem;
+}
+.list__img {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.list__img img {
+  width: 17rem;
+  height: 12rem;
+}
+
+.car__detail__right > .contact__middle {
+  margin-top: 2rem;
+}
+
+.car__detail__right > .contact__middle i {
+  color: #fff;
+}
+
+.car__detail__text > .contact__middle {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .car__detail > .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .car__detail__right img {
+    width: 28rem;
+    height: 18.2rem;
+  }
+
+  .list__img img {
+    width: 8.351rem;
+    height: 5.895rem;
+  }
+
+  .car__detail__text {
+    width: 28rem;
+    height: 24.7rem;
+  }
+
+  .car__detail__text h6 {
+    font-family: Bebas Neue;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: left;
+  }
+
+  .car__detail__text p:nth-child(2) {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+
+  .paragraph {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+
+  .car__detail__list {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+
+  .car__detail__right > .contact__middle {
+    display: none;
+  }
+
+  .contact__middle {
+    align-items: center;
+  }
+  .contact__middle i {
+    color: #fff;
+  }
+  .car__detail__text > .contact__middle p {
+    display: block;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+
+  .car__detail__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

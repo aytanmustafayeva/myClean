@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-black);
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+/* p {
+  color: var(--color-white);
+} */

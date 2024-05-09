@@ -1,0 +1,535 @@
+/* section1 start */
+
+.section1 {
+  /* background-color: black; */
+  margin: 5rem;
+}
+
+.section1__parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section1__left {
+  top: 50%;
+  text-align: left;
+  color: #fff;
+}
+
+.section1__left h1 {
+  font-family: Bebas Neue;
+  font-size: clamp(4.4rem, 11vw, 12rem);
+  font-weight: 700;
+  line-height: 12rem;
+  letter-spacing: -0.015em;
+  text-align: left;
+  /* width: 74.6px;
+  height: 22.1px; */
+}
+
+.section1__left p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 37rem;
+  height: 7.6rem;
+}
+.section1__left button {
+  background-color: #000;
+}
+.section1__left a {
+  font-family: Poppins;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.section1__left a > i {
+  font-size: 2.5rem;
+  color: #000;
+  padding: 1.75rem;
+  border-radius: 4.5rem;
+  background-color: #fdce00;
+  margin-left: 4rem;
+}
+#header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+}
+
+.section1__right {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+}
+
+.section1__left {
+  z-index: 1;
+}
+
+.section1__right {
+  width: 70rem;
+}
+.section1__right img {
+  object-fit: cover;
+  width: 67rem;
+  /* height: 898px; */
+  height: 600px;
+}
+
+/* section1 end */
+
+/* section2 start */
+
+.section2 {
+  background-color: #fdce00;
+}
+
+.section2__parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.3rem 2rem;
+}
+
+.section2__part h2 {
+  font-family: Bebas Neue;
+  font-size: 7.3rem;
+  font-weight: 700;
+  line-height: 7.3rem;
+  letter-spacing: -0.015em;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.section2__part p {
+  font-family: Bebas Neue;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .section2 end  */
+
+/* section3 about start */
+.about {
+  position: relative;
+  padding: 17.2rem 11.5rem;
+}
+
+.about__left h2 {
+  font-family: Bebas Neue;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 12rem;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #fdce00;
+}
+
+.about__left p {
+  margin-left: 5rem;
+  width: 47rem;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.about__left p:nth-child(2) {
+  margin-top: 5rem;
+}
+
+.about__left a {
+  font-family: Poppins;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: -0.015em;
+  padding-left: 11.5rem;
+}
+
+.about__right img {
+  width: 60.5rem;
+  height: 49.6rem;
+  position: absolute;
+  top: 17.2rem;
+  right: 0;
+}
+
+/* about section end  */
+
+/* service section start */
+
+.service__parents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.service__each__part img {
+  width: 30rem;
+  height: 31.622rem;
+}
+.service__each__part p {
+  font-family: Bebas Neue;
+  font-size: 2.595rem;
+  font-weight: 700;
+  line-height: 29.19px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #b3b3b3;
+}
+.service__each__part {
+  width: 100%;
+  position: relative;
+  margin: 10.8rem 0;
+}
+
+.service__each__part:nth-child(2) img {
+  transform: scale(1.2);
+}
+
+.service__each__part:nth-child(2) > .service__part__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.service__part__text {
+  margin: 2rem 0;
+}
+
+.service__part__text p {
+  color: #fff;
+}
+.service__part__text p:nth-child(1) {
+  font-family: Bebas Neue;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.service__part__text p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* service section end */
+
+/* blog section start */
+.blog {
+  background-color: #fdce00;
+  padding: 7rem 0;
+}
+
+.blog h2 {
+  font-family: Bebas Neue;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 12rem;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.blog__part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.blog__left__part img {
+  width: 40rem;
+  height: 28.6rem;
+  object-fit: cover;
+}
+
+.blog__right__part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 47rem;
+}
+
+.blog__right__part h5 {
+  font-family: Bebas Neue;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.blog__right__part p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.blog a {
+  color: #000;
+}
+
+.more > i {
+  color: #000;
+}
+
+/* blog section end */
+
+/* contact section start */
+
+.contact {
+  padding: 5rem;
+}
+.contact h2,
+.service h2,
+.products h2,
+.cars h2 {
+  font-family: Bebas Neue;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 12rem;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fdce00;
+  text-transform: uppercase;
+}
+.contact__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4.3rem;
+}
+.contact__left__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__left__text i,
+.contact__middle i,
+.contact__social__media i {
+  font-size: 2.5rem;
+  color: #fdce00;
+}
+
+.contact__left__text a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contact__middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.contact__left__text p,
+.contact__middle p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 25.7rem;
+  color: #fff;
+}
+
+.contact__social__media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.map {
+  /* color: #000; */
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .section2__parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section2__part {
+    width: 11.4rem;
+  }
+
+  .section2__parent h2 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    letter-spacing: -0.015em;
+    text-align: center;
+  }
+
+  .section2__parent p {
+    font-size: 1.6rem;
+  }
+
+  .about__parent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+
+  .about__left p {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+  .about__right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .about__right img {
+    width: 32rem;
+    height: 21rem;
+  }
+
+  .about {
+    padding: 17.2rem 11.5rem;
+  }
+  .service__parents > .service__each__part,
+  .cars__parents > .each__car,
+  .products__parents > .each__product {
+    display: none;
+  }
+
+  .each__car:first-child,
+  .each__product:first-child,
+  .service__each__part:first-child {
+    display: flex;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog h2 {
+    font-family: Bebas Neue;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    letter-spacing: -0.005em;
+  }
+
+  .blog__part {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .blog__left__part img {
+    width: 28rem;
+    height: 19.8rem;
+  }
+
+  .blog__right__part {
+    width: 28rem;
+  }
+
+  .blog__right__part h5 {
+    font-family: Bebas Neue;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: left;
+  }
+
+  .blog__right__part p {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+  }
+
+  .contact {
+    padding: 8rem 2rem;
+  }
+  .contact h2,
+  .service h2,
+  .products h2,
+  .cars h2 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .contact__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+
+  .contact__left__text li:nth-child(2) {
+    display: none;
+  }
+  .contact__left__text p,
+  .contact__middle p {
+    width: 20.7rem;
+  }
+
+  .contact__left__text i,
+  .contact__middle i,
+  .contact__social__media i {
+    font-size: 2.3rem;
+    color: #fdce00;
+  }
+
+  .contact__middle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact__social__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+}
